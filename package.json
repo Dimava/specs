@@ -1,0 +1,11 @@
+{
+  "name": "@dimava/spec",
+  "type": "module",
+  "scripts": {
+    "fix": "bun fmt && bun --check --runExternalCode && bun lint --type-aware --fix"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@dimava/visle-content-mapper": "link:@dimava/visle-content-mapper"
+  }
+}
